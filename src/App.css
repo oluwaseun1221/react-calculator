@@ -1,0 +1,62 @@
+/* Reset margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Ensure #root is centered */
+
+/* Main panel styling */
+.main-panel {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem; /* Add padding for inner spacing */
+}
+
+.screen {
+  height: 80px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 80px;
+  padding: 0 1rem;
+}
+.button-panel {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid black; */
+  /* background-color: #e9ecef; */
+  /* padding: 1 0rem; */
+}
+.panel-row {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid black; */
+  /* background-color: #e9ecef; */
+  /* padding: 1 0rem; */
+}
+
+.button {
+  border: 1px solid #e9ecef;
+  width: 25%;
+  margin: 0.8rem;
+  text-align: center;
+  border-radius: 5px;
+  color: #161212;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
