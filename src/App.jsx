@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -26,16 +25,21 @@ function App() {
             <div className="button">-</div>
           </div>
           <div className="panel-row">
-            <div className="button">1</div>
-            <div className="button">2</div>
-            <div className="button">3</div>
-            <div className="button">+</div>
-          </div>
-          <div className="panel-row">
-            <div className="button">0</div>
-            <div className="button">.</div>
-            <div className="button">=</div>
-            <div className="button">+</div>
+            <div className="inner-row75">
+              <div className="sub-row">
+                <div className="button">1</div>
+                <div className="button">2</div>
+                <div className="button">3</div>
+              </div>
+              <div className="sub-row">
+                <div className="button">0</div>
+                <div className="button">.</div>
+                <div className="button">=</div>
+              </div>
+            </div>
+            <div className="inner-row25">
+              <div className="button">+</div>
+            </div>
           </div>
         </div>
       </div>

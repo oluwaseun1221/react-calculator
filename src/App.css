@@ -49,7 +49,18 @@ body {
   /* background-color: #e9ecef; */
   /* padding: 1 0rem; */
 }
-
+.inner-row75 {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.inner-row25 {
+  display: flex;
+  width: 25%; /* Center the "+" button horizontally */
+}
+.sub-row {
+  display: flex;
+}
 .button {
   border: 1px solid #e9ecef;
   width: 25%;
@@ -59,4 +70,5 @@ body {
   color: #161212;
   padding: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
 }
